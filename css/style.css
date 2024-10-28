@@ -138,6 +138,10 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.section-head.title-wrapper {
+  margin: 0 !important;
+}
+
 .title {
   display: inline-block;
   font-size: 36px;

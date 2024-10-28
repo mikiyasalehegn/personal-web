@@ -39,6 +39,7 @@ const swiper = new Swiper(".slide-wrapper", {
 
 const maxLength = 110; // Maximum number of characters to show initially
 
+
 // Function to initialize content with limited text
 function initializeContent() {
   document.querySelectorAll(".project-title").forEach((content) => {
