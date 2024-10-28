@@ -19,13 +19,28 @@ const swiper = new Swiper(".slide-wrapper", {
   //   responsive points
   breakpoints: {
     0: {
+      // Extra small screens (mobile)
       slidesPerView: 1,
     },
-    628: {
+    480: {
+      // Small screens (small mobile in landscape)
+      slidesPerView: 1.5,
+    },
+    768: {
+      // Medium screens (tablets)
       slidesPerView: 2,
     },
-    1030: {
+    1024: {
+      // Large screens (small desktops)
+      slidesPerView: 2.5,
+    },
+    1280: {
+      // Extra large screens (large desktops)
       slidesPerView: 3,
+    },
+    1536: {
+      // Ultra large screens (very large desktops)
+      slidesPerView: 4,
     },
   },
 });
