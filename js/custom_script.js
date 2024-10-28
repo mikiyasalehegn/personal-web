@@ -22,20 +22,10 @@ const swiper = new Swiper(".slide-wrapper", {
       // Extra small screens (mobile)
       slidesPerView: 1,
     },
-    480: {
-      // Small screens (small mobile in landscape)
-      slidesPerView: 1.5,
-    },
     768: {
-      // Medium screens (tablets)
       slidesPerView: 2,
     },
     1024: {
-      // Large screens (small desktops)
-      slidesPerView: 2.5,
-    },
-    1280: {
-      // Extra large screens (large desktops)
       slidesPerView: 3,
     },
     1536: {

@@ -966,17 +966,6 @@ a:hover {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  /* background-color: black; */
-  /* background: url("./img/main-bg.jpg") #030728 no-repeat; */
-}
-
-h4.title.my-project {
-  margin: 0 !important;
-}
-
-.blog .section-head {
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 .slide-wrapper {
@@ -986,7 +975,7 @@ h4.title.my-project {
 }
 
 .card-list .card {
-  color: #91bdb6;
+  color: #fff;
   width: 500px;
   user-select: none;
   padding: 35px;
@@ -995,7 +984,6 @@ h4.title.my-project {
   align-items: center;
   backdrop-filter: blur(30px);
   justify-content: center;
-  margin-right: 10px !important;
 }
 
 .card-list .card .proj-image {
@@ -1006,16 +994,9 @@ h4.title.my-project {
   padding: 4px;
 }
 
-.card-list .card .proj-name {
-  font-size: 1.55em;
-  font-weight: 500;
-  margin: 14px 0 20px;
-}
-
 .project-title {
   margin-bottom: 10px;
 }
-
 .project-title .text-content {
   overflow: hidden;
   transition: all 0.3s ease;
@@ -1025,6 +1006,13 @@ h4.title.my-project {
 }
 .read-more-text {
   display: none;
+}
+
+.card-list .card .proj-name {
+  font-size: 1.15em;
+  color: e3e3e3;
+  font-weight: 500;
+  margin: 14px 0 40px;
 }
 
 .slide-wrapper .swiper-pagination-bullet {
