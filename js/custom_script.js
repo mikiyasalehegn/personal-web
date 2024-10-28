@@ -19,6 +19,7 @@ const swiper = new Swiper(".slide-wrapper", {
   //   responsive points
   breakpoints: {
     0: {
+      // Extra small screens (mobile)
       slidesPerView: 1,
     },
     768: {
@@ -26,6 +27,10 @@ const swiper = new Swiper(".slide-wrapper", {
     },
     1024: {
       slidesPerView: 3,
+    },
+    1536: {
+      // Ultra large screens (very large desktops)
+      slidesPerView: 4,
     },
   },
 });
