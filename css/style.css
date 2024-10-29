@@ -990,12 +990,19 @@ a:hover {
   justify-content: center;
 }
 
+.card-list .card .proj-name {
+  font-size: 1.17em;
+  color: #91bdb6;
+  font-weight: 500;
+  margin: 14px 0 20px;
+}
+
 .card-list .card .proj-image {
   width: 360px;
   height: 360px;
   margin-bottom: 40px;
   border: 3px solid #91bdb6;
-  padding: 4px;
+  padding: 3px;
 }
 
 .project-title {
@@ -1010,13 +1017,6 @@ a:hover {
 }
 .read-more-text {
   display: none;
-}
-
-.card-list .card .proj-name {
-  font-size: 1.15em;
-  color: e3e3e3;
-  font-weight: 500;
-  margin: 14px 0 40px;
 }
 
 .slide-wrapper .swiper-pagination-bullet {
